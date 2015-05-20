@@ -1,0 +1,10 @@
+telecharger la version de fusion compatible avec la version de glpi.
+decompresser et deposer dans le dossier plugins de glpi
+depuis l'interface de glpi dans l'option configuration plugins, installer et active le plugin
+
+apres avoir activer le plugin, aller dans plugins/fusion et dans regle d'import et liaison des materiel pour active l'import par nom.
+cette regle permet au ordinateur de se retrouver une fois vue par le serveur glpi dans le parc informatique
+
+telecharger puis compiler la derniere version de l'agent fusion-inventory pour les ordinateurs a repertorier.
+
+langer l'agent avec la commande fusioninventory-agent
