@@ -1,0 +1,15 @@
+prerequis glpi:
+ apt-get install apache2 php5 libapache2-mod-php5 
+paquet pour l'autentification externe
+apt-get install php5-imap php5-ldap php5-curl
+installation base de donné
+mariadb: repo pour debian 7
+sudo apt-get install python-software-properties
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
+sudo add-apt-repository 'deb http://mirror.zol.co.zw/mariadb/repo/10.0/debian wheezy main'
+sudo apt-get update
+sudo apt-get install mariadb-server
+apt-get install php5-mysqlnd pour corrigi l'erreur  extension MySQLi pour PHP.
+apt-get install php5-gd  pour l'erreur de gd
+bind port (mysql) 0.0.0.0
+
