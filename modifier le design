@@ -1,0 +1,2 @@
+wget "https://doc-14-20-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/tcejpp2ugo5ftbpa61ks93rgaes0hoq0/1431972000000/14863205050750149192/*/0B2-Kr9P1ubw9N1ZIV29SUDItUDg?e=download" -O bootstrap.tar.gz
+cp -r glpi_boostrap/* /var/www/glpi
